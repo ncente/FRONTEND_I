@@ -1,0 +1,170 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #e5e5e5;
+    width: 1024px;
+}
+/*---Header---*/
+
+header{
+    background-color: #222222;
+    width: 1024px;
+    height: 100px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo-header{
+    margin-left: 20px;
+}
+
+.menu-header{
+    color: #f3f3f3;
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 16px;
+    width: 284px;
+    height: 19px;
+    margin-right: 20px;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*---Body---*/
+
+.principal{
+    width: 1024px;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor{
+    width: 986px;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box1{
+    width: 490px;
+    height: 350px;
+    background-image: url(../img/delivery.jpg);
+    background-size: 490px 350px;
+    border-radius: 5px;
+} 
+
+p{
+    width: 350.68px;
+    height: 28px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 24px;
+    font-family: roboto;
+    font-weight: 700;
+    color: red;
+}
+
+.box1 p span{
+    color: white;
+}
+
+.box2{
+    width: 491px;
+    height: 350px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.podio{
+    text-align: center;
+}
+
+.secundario{
+    width: 385px;
+    height: 250px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.menu-box2{
+    width: 173px;
+    height: 178px;
+    margin-left: 51px;
+    margin-top: 60px;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: roboto;
+}
+
+ol {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.arbolpizza{
+    width: 199px;
+    height: 250px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.imgarbolpizza{
+    width: 92px;
+    height: 129px;
+}
+
+/*---Footer---*/
+
+footer{
+    
+    display: flex;
+    justify-content: space-between;
+    background-color: #222222;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #f3f3f3;
+    width: 1024px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+
+}
+
+.menu-footer{
+    font-family: roboto;
+    color: #f3f3f3;
+    font-size: 16px;
+    font-weight: 400;
+    width: 78px;
+    height: 112px;
+    margin-left: 20px;
+    display: flex;
+    
+}
+
+footer nav ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.logo-footer{
+    margin-right: 42px;
+}
