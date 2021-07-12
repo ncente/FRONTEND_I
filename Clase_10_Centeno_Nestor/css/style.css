@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1024px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+
+/* ----- HEADER -----*/
+
+.container_topheader{
+    height: 38px;
+    background-color: #1cd1b0;
+}
+
+.container_topheader p{
+    position: absolute;
+    width: 111px;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    top: 10px;
+    left: 10px;
+}
+
+.container_header{
+    height: 101px;
+    background-color: #00669f;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+.container_header p{
+    position: absolute;
+    width: 128px;
+    height: 47px;
+    top: 66px;
+    left: 28px;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+/* -------- MAIN --------*/
+main {
+    height: 834px;
+}
+.cards{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    position: absolute;
+    width: 960px;
+    height: 532px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box{
+    position: relative;
+}
+
+
+.portada{
+    width: 300px;
+    height: 194px;
+    background-color: #c4c4c4;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.portada .frame i{
+    position: absolute;
+    color: red;
+    font-size: 30px;
+    top: 16px;
+    left: 20px;
+}
+
+.perfil{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    z-index: 10;
+    top: 128px;
+    left: 90px;
+}
+
+.perfil img{
+    border-radius: 50%;
+}
+
+.content{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 336px;
+    background: #f3f3f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.content h3{
+    position: absolute;
+    width: 192px;
+    height: 35px;
+    font-size: 30px;
+    line-height: 35px;
+    top: 74px;
+    text-align: center;
+
+}
+
+.content p{
+    position: absolute;
+    top: 119px;
+    width: 267px;
+    height: 113px;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+
+/*------- FOOTER --------*/
+
+.container_footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 51px;
+    background-color: #00669f;
+}
+
+.container_footer p{
+    width: 397px;
+    height: 19px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff9f9;
+}
